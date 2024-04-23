@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const profileButton = document.getElementById('profileButton');
     const profileCard = document.getElementById('profileCard');
+    profileCard.style.display = 'none';
 
     function toggleProfileCard() {
         profileCard.style.display = profileCard.style.display === 'none' ? 'block' : 'none';

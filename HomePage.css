@@ -46,19 +46,30 @@
     border: 0;
     outline: 0;
     background: transparent;
+    position: relative;
 }
 
 
 
 .profile-card {
     position: absolute !important;
-    top: 50px;
-    right: 0;
-    display: none;
     z-index: 100;
+    top: 80%;
+    width: 15%;
+    left: 70%;
+    transition: display 0.3s ease;
 }
 
 
 .profile-card .list-group-item {
     padding: 10px;
 }
+
+@media (max-width: 768px) {
+    .profile-card {
+        width: 100%; 
+        left: 0;
+        right: 0;
+    }
+}
+
