@@ -1,0 +1,64 @@
+
+.container-fluid {
+    width: 100%;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow:0px 0px 11px 8px #d5d7d9
+}
+
+
+.navbar {
+    padding: 0 !important;
+}
+
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+}
+
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #d5d7d9 !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+
+.gap {
+    gap: 10px;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.btn-profile-img {
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+
+
+.profile-card {
+    position: absolute !important;
+    top: 50px;
+    right: 0;
+    display: none;
+    z-index: 100;
+}
+
+
+.profile-card .list-group-item {
+    padding: 10px;
+}
